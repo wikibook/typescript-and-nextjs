@@ -1,0 +1,1 @@
+<img src="/img/star.png" alt=" "/>

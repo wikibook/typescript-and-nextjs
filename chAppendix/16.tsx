@@ -1,0 +1,1 @@
+<img src="/products/books/red-book.png" alt="YOU ARE YOUR ONLY LIMIT의 상품 이미지" />
