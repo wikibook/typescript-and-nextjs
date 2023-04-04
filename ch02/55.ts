@@ -9,10 +9,10 @@ interface User {
 
 let user: User
 
-user = { name: 'Takuya', social: { facebook: true, twitter: true } }
+user = { name: 'Hana', social: { facebook: true, twitter: true } }
 // true가 출력된다
 console.log(user.social?.facebook)
 
-user = { name: 'Takuya' }
+user = { name: 'Hana' }
 // social이 존재하지 않는 경우에도 다음 코드는 실행 시 에러가 되지 않는다
 console.log(user.social?.facebook) 

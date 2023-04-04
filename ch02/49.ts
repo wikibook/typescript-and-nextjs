@@ -16,12 +16,12 @@ type IdentityOrContact = Identity | Contact
 // OK
 const id: IdentityOrContact = {
   id: '111',
-  name: 'Takuya' 
+  name: 'Hana' 
 }
 
 // OK
 const contact: IdentityOrContact = {
-  name: 'Takuya' ,
+  name: 'Hana',
   email: 'test@example.com',
   phone: '012345678'
 }

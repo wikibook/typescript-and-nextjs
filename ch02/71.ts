@@ -4,4 +4,4 @@ function hello(word) {
   console.log(`Hello, ${name}`)
 }
 
-hello('Takuya')
+hello('Hana')

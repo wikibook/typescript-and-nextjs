@@ -5,8 +5,8 @@ type User = {
 
 type UserReadonly = Readonly<User>
 
-let user: User = { name: 'Takuya', gender: 'Male' }
-let userReadonly: UserReadonly = { name: 'Takuya', gender: 'Male' }
+let user: User = { name: 'Hana', gender: 'Male' }
+let userReadonly: UserReadonly = { name: 'Hana', gender: 'Male' }
 
-user.name = 'Yoshiki' // OK
-userReadonly.name = 'Yoshiki' // 컴파일 시 에러가 발생한다
+user.name = 'Jinho' // OK
+userReadonly.name = 'Jinho' // 컴파일 시 에러가 발생한다

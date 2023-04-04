@@ -6,14 +6,14 @@ type Employee = Identity & Contact
 // OK
 const employee: Employee = {
   id: '111',
-  name: 'Takuya',
+  name: 'Hana',
   email: 'test@example.com',
   phone: '012345678'
 }
 
 // 에러: Contact 정보만으로 변수를 정의할 수 없다. id가 필요하다.
 const employeeContact: Employee = {
-  name: 'Takuya',
+  name: 'Hana',
   email: 'test@example.com',
   phone: '012345678'
 }

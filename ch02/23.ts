@@ -1,6 +1,6 @@
 function getUser() {
   return {
-     name: 'Takuya',
+     name: 'Hana',
      age: 36
   }
 }
