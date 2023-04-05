@@ -21,6 +21,6 @@ class User implements IUser {
 }
 
 const user = new User()
-user.name = 'Takuya'
+user.name = 'Hana'
 user.age = 36
-console.log(user.sayHello()) // '안녕하세요. 저는 Takuya이며, 36살입니다.'
+console.log(user.sayHello()) // '안녕하세요. 저는 Hana이며, 36살입니다.'

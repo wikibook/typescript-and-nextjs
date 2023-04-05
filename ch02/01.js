@@ -2,5 +2,5 @@ function sayHello (firstName) {
   console.log('Hello ' + firstName)
 }
 
-let firstName = 'Takuya'
+let firstName = 'Hana'
 sayHello(firstName)

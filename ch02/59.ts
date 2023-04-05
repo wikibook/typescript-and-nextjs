@@ -15,7 +15,7 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
 }
 
 const user: User = {
-  name: 'Takuya',
+  name: 'Hana',
   age: 36,
   email: 'test@example.com'
 }

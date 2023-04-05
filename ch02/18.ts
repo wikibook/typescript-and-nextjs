@@ -3,5 +3,5 @@ function sayHello(name: string, greeting: string = 'Hello'): string {
 }
 
 // 다음은 모두 문제없이 동작한다
-sayHello('Takuya') // Hello Takuya
-sayHello('Takuya', 'Hey')　// Hey Takuya
+sayHello('Hana') // Hello Hana
+sayHello('Hana', 'Hey')　// Hey Hana
